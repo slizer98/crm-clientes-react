@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'purple': '#865DFF',
-        'blue': '#191825',
-        'pink': '#E384FF',
-        'light-pink': '#FFA3FD',
+        'purple': '#77037B',
+        'blue': '#210062',
+        'yellow': '#F9E2AF',
+        'light-blue': '#009FBD',
       },
     },
   },
