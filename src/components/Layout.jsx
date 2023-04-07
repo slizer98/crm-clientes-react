@@ -9,7 +9,7 @@ function Layout() {
           <NavLink
               className={({ isActive }) => `${ isActive ? "text-light-blue" : "text-white" } text-2xl block mt-2 hover:text-light-blue` }
               to="/" >
-              Inicio
+              Clientes
             </NavLink>
   
             <NavLink
