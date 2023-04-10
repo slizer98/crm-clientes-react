@@ -8,7 +8,7 @@ export default function ErrorPage() {
             <h1 className="font-extrabold text-center text-6xl text-light-blue mt-20">CRM - Clientes</h1>
             <h2 className="font-extrabold text-center text-4xl text-indigo-800 mt-10">Oops!</h2>
             <p className="text-center">Hubo un error</p>
-            <p className="text-center">{error.message}</p>
+            <p className="text-center">{error.statusText || error.message}</p>
             
         </div>
      )
