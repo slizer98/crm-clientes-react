@@ -36,7 +36,7 @@ function NuevoCliente() {
   const navigate = useNavigate()
   const errores = useActionData()
   const errorContainerRef = useRef(null)
-
+  
   useEffect(() => {
     if (errores?.length && errorContainerRef.current) {
       errorContainerRef.current.scrollIntoView({ behavior: "smooth" })
